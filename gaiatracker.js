@@ -6,8 +6,9 @@ var fs = require('fs');
 // read file with hosts to monitor
 var hosts = fs.readFileSync('hosts.txt').toString().split("\n");
 
+// read json file that stores webhook URLs 
 var webHooks = new WebHooks({
-    db: './webHooksDB.json', // json file that stores webhook URLs 
+    db: './webHooksDB.json', 
 })
  
 // for tracking changes, we have to store the last ping in a hash
