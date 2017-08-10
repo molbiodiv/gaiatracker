@@ -7,7 +7,7 @@ npm/node.js is required, as well as some additional node packages. Just use the 
 ## Configuration
 The list of IPs must be provided in a file called hosts.txt, where each line holds an IP address. 
 
-Further, you must a file, webHooksDB.json, where you provide the urls to push in a format like this: 
+Further, you must generate a file, webHooksDB.json, where you provide the urls to push in a format like this: 
 
 ```
 {	
@@ -15,6 +15,7 @@ Further, you must a file, webHooksDB.json, where you provide the urls to push in
 "Name2":["https://xxx.zz/dfer32r22"]
 }
 ```
+Be sure to add your trigger name to the script.
 
 ## Starting the service
 
