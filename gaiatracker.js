@@ -1,8 +1,10 @@
 const schedule = require('node-schedule');
 const WebHooks = require('node-webhooks')
 const ping = require('ping');
+var fs = require('fs');
 
-var hosts = ['132.187.198.12','132.187.198.13','132.187.198.14','132.187.198.18'];
+// read file with hosts to monitor
+var hosts = fs.readFileSync('hosts.txt').toString().split("\n");
 
 var webHooks = new WebHooks({
     db: './webHooksDB.json', // json file that stores webhook URLs 
