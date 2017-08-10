@@ -7,7 +7,7 @@ var hosts = ['132.187.198.12','132.187.198.13','132.187.198.14','132.187.198.18'
 var webHooks = new WebHooks({
     db: './webHooksDB.json', // json file that stores webhook URLs 
 })
-
+ 
 // for tracking changes, we have to store the last ping in a hash
 var status = {};
 
