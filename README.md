@@ -19,4 +19,4 @@ Be sure to add your trigger name to the script.
 
 ## Starting the service
 
-use the startup_gaiatracker.sh for starting, so it will restart and continue monitoring, even after crashing.
+use the startup_gaiatracker.sh for starting, so it will restart and continue monitoring, even after unexpected crashes.
