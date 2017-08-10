@@ -1,0 +1,18 @@
+{
+  "name": "gaiabot",
+  "version": "1.0.0",
+  "description": "traking server status of the terminals",
+  "main": "gaiatracker.js",
+  "dependencies": {
+    "node-schedule": "^1.2.3",
+    "node-webhooks": "^1.2.4",
+    "ping": "^0.2.2",
+    "webhooks": "^0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A. Keller",
+  "license": "ISC"
+}
