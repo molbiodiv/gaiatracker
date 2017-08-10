@@ -6,8 +6,7 @@
   "dependencies": {
     "node-schedule": "^1.2.3",
     "node-webhooks": "^1.2.4",
-    "ping": "^0.2.2",
-    "webhooks": "^0.0.4"
+    "ping": "^0.2.2"
   },
   "devDependencies": {},
   "scripts": {
