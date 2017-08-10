@@ -1,5 +1,5 @@
 # gaiatracker
-This keeps track of the rechability status of any IP and pushes changes to a webhook URL. 
+This keeps track of the reachability status of any IP and pushes changes to a webhook URL. 
 
 ## Installation 
 npm/node.js is required, as well as some additional node packages. Just use the package.json for initialization and installing dependencies.
